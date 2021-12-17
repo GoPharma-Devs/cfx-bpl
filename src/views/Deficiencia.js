@@ -1,5 +1,5 @@
 import React from 'react'
-import ProblemasS from "../img/problemas-sangrado.png";
+
 import Def from "../img/PLAQUETAS_ESQUEMAS_2-02.svg";
 import Paciente1 from "../img/adrian-256.jpeg"
 import Paciente2 from "../img/maritza-256.jpeg"
