@@ -12,6 +12,8 @@ import Nasales from "../img/nariz-sangrando.svg"
 import Encias from "../img/encias.svg"
 import Excesivo from "../img/excesivos.svg"
 import Cerebro from "../img/cerebro.svg"
+import Mujer from "../img/icon-woman.svg"
+import Bebe from "../img/icon-baby.svg"
 function Transtornos() {
   return (
     <React.Fragment>
@@ -78,8 +80,8 @@ function Transtornos() {
         <div className="contenedor">
           <div className="col">
             <img
-              src="https://d33wubrfki0l68.cloudfront.net/640d04fdec49375633529e1b84a27b665cdcd1fd/b8866/img/icons/icon-woman.svg"
-              alt=""
+              src={Mujer}
+              alt="sintomas en mujeres"
             />
             <div className="texto-col">
               <p className="titulod">Síntomas en mujeres:</p>
@@ -91,8 +93,8 @@ function Transtornos() {
           </div>
           <div className="col">
             <img
-              src="https://d33wubrfki0l68.cloudfront.net/0e6fce9dd8361e74da17237ef3a33074bf9cb5a6/d9ae7/img/icons/icon-baby.svg"
-              alt=""
+              src={Bebe}
+              alt="Síntomas en mujeres"
             />
             <div className="texto-col">
               <p className="titulod">Síntomas en los recién nacidos:</p>
