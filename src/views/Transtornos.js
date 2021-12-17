@@ -1,7 +1,17 @@
 import React from "react";
-import info1 from "../img/PLAQUETAS_ESQUEMASArtboard3.png"
-import info2 from "../img/PLAQUETAS_ESQUEMASArtboard3.png"
+import info1 from "../img/PLAQUETAS_ESQUEMAS_1-01.svg"
+import info2 from "../img/PLAQUETAS_ESQUEMAS_2-02.svg"
+import Articulacion from "../img/articulacion.svg"
 import ProblemasS from "../img/problemas-sangrado.png";
+import VideoImg1 from "../img/PREVIEW_VIDEO_BPL_WEB_2.jpg"
+import Rutina from "../img/rutina.svg"
+import Cirugia from "../img/cirugia.svg";
+import Pedido from "../img/apedido.svg"
+import Moretones from "../img/moreton.svg";
+import Nasales from "../img/nariz-sangrando.svg"
+import Encias from "../img/encias.svg"
+import Excesivo from "../img/excesivos.svg"
+import Cerebro from "../img/cerebro.svg"
 function Transtornos() {
   return (
     <React.Fragment>
@@ -28,9 +38,9 @@ function Transtornos() {
           </div>
           <div className="contendor-video">
             <img
-              src={ProblemasS}
+              src={VideoImg1}
               alt="Problemas con sangrado facil"
-              className="hematomas"
+              className="video-preview"
             />
             <small>
               Los síntomas del trastorno hemorrágico a veces pueden ser confusos
@@ -72,7 +82,7 @@ function Transtornos() {
               alt=""
             />
             <div className="texto-col">
-              <p>Síntomas en mujeres:</p>
+              <p className="titulod">Síntomas en mujeres:</p>
               <ul>
                 <li>Sangrado más abundante o más prolongado durante los períodos que la mayoría de las otras mujeres (sangrado menstrual abundante)</li>
                 <li>Complicaciones hemorrágicas durante el embarazo o el parto.</li>
@@ -85,7 +95,7 @@ function Transtornos() {
               alt=""
             />
             <div className="texto-col">
-              <p>Síntomas en los recién nacidos:</p>
+              <p className="titulod">Síntomas en los recién nacidos:</p>
               <ul>
                 <li>sangrado del cordón umbilical (ombligo) o de la circuncisión que no se detiene normalmente, o sangrado del cerebro o del estómago</li>
 
@@ -97,21 +107,21 @@ function Transtornos() {
       <section className="section-white">
         <div className="contenedor">
           <div className="col-list">
-            <p>Síntomas en cualquier persona:
+            <p className="titulo">Síntomas en cualquier persona:
             </p>
             <ul>
-              <li><img src="/" alt="img-list" />Moretones con facilidad</li>
-              <li><img src="/" alt="img-list" />Hemorragias nasales</li>
-              <li><img src="/" alt="img-list" />Hinchazón / dolor articular</li>
-              <li><img src="/" alt="img-list" />Sangrado de las encías
+              <li><img src={Moretones} alt="img-list" />Moretones con facilidad</li>
+              <li><img src={Nasales} alt="img-list" />Hemorragias nasales</li>
+              <li><img src={Articulacion} alt="img-list" />Hinchazón / dolor articular</li>
+              <li><img src={Encias} alt="img-list" />Sangrado de las encías
               </li>
-              <li><img src="/" alt="img-list" />Sangrado excesivo después de una lesión.</li>
-              <li><img src="/" alt="img-list" />Sangrado en el cerebro</li>
+              <li><img src={Excesivo} alt="img-list" />Sangrado excesivo después de una lesión.</li>
+              <li><img src={Cerebro} alt="img-list" />Sangrado en el cerebro</li>
 
             </ul>
           </div>
           <div className="cuadro-azul-cielo">
-            <h3>¿Sabías?</h3>
+            <h3 className="titulod">¿Sabías?</h3>
             <p>Los síntomas del trantorno hemorrágico pueden causar molestias.</p>
             <ul>
               <li>Las personas con trastornos hemorrágicos a veces sienten dolor con los síntomas hemorrágicos.</li>
@@ -158,6 +168,45 @@ function Transtornos() {
           Por ejemplo, el sangrado en las articulaciones puede manifestarse como hinchazón o dolor en las articulaciones.
         </h4>
       </div></section>
+      <section className="section">
+        <div className="contenedor-col">
+          <div className="transtornos-info">   <p className="titulod">¿Cómo se tratan los trastornos hemorrágicos?
+          </p>
+            <p>Por lo general, los trastornos hemorrágicos no se pueden curar. Pero muchos trastornos hemorrágicos pueden tratarse. El tratamiento depende del trastorno hemorrágico. Puede incluir medicamentos que reemplacen los factores de coagulación que faltan en la sangre.
+
+            </p>
+
+            <p>El tipo de tratamiento necesario depende de la frecuencia con la que tenga síntomas y de su gravedad.
+
+            </p></div>
+          <div className="col-tres">
+            <div className="col-tres-el">
+              <img src={Rutina} alt="img-col" />
+              <p className="titulod">Tratamiento de rutina:</p>
+              <ul>
+                <li>Algunos trastornos hemorrágicos se pueden tratar con un tratamiento de rutina. Esto significa que debe tomar un medicamento, según las indicaciones de su médico, para ayudar a prevenir el sangrado antes de que suceda.</li>
+                <li>Esta puede ser la opción correcta si sus síntomas son regulares, afectan sus actividades diarias, le causan dolor o si tiene hemorragias muy graves (graves).</li>
+              </ul>
+            </div>
+            <div className="col-tres-el">
+              <img src={Cirugia} alt="img-col" />
+              <p className="titulod">Tratamiento con cirugía:</p>
+              <ul>
+                <li>En algunos casos, se puede administrar un tratamiento para ayudar a prevenir el sangrado con cirugías. Esto incluye cirugía dental u otros procedimientos en los que es posible sangrar.</li>
+                <li>Ésta puede ser la opción correcta si puede sangrar más debido a la cirugía. Se puede elegir incluso si no tiene muchos síntomas de sangrado, porque podría sangrar más con la cirugía.</li>
+              </ul>
+            </div>
+            <div className="col-tres-el">
+              <img src={Pedido} alt="img-col" />
+              <p className="titulod">Tratamiento según sea necesario (a pedido):</p>
+              <ul>
+                <li>A veces, se administra un tratamiento cada vez que sangra. El tratamiento según sea necesario puede ayudar a detener una hemorragia después de que comience.</li>
+                <li>Esta puede ser la opción correcta si sangra muy raramente, si el sangrado no suele afectar su actividad diaria o si su sangrado no es severo</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
     </React.Fragment >
   );
 }

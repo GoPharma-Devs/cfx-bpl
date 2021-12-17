@@ -15,6 +15,7 @@ $navlink:#004B87;
 
 
 nav {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   padding: 0.5rem;
   position: absolute;
   display: flex;
@@ -72,7 +73,7 @@ nav {
 
   .hematomas {
     padding: 1rem;
-    max-width: 260px;
+    max-width: 490px;
     height: auto;
 
     @include phone {
@@ -107,7 +108,7 @@ nav {
 
   .hematomas {
     padding: 1rem;
-    max-width: 260px;
+    max-width: 490px;
     height: auto;
 
     @include phone {
@@ -116,12 +117,27 @@ nav {
   }
 }
 
+
+
 .contenedor {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
   max-width: 1080px;
   width: 100%;
+
+  @include phone {
+    flex-flow: column;
+  }
+}
+
+.contenedor-col {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  max-width: 1080px;
+  width: 100%;
+  flex-flow: column;
 
   @include phone {
     flex-flow: column;
@@ -246,4 +262,110 @@ nav {
   }
 
   text-align: left;
+}
+
+.titulod {
+  text-align: left !important;
+  font-size: 1.4rem;
+  font-weight: bolder;
+}
+
+.col-list {
+
+
+  .titulo {
+    text-align: left !important;
+    font-size: 1rem;
+  }
+
+  ul {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+
+    @include phone {
+      grid-template-columns: 1fr;
+    }
+
+
+    li {
+
+      display: flex !important;
+      align-items: center;
+      justify-content: between;
+      text-align: left;
+      margin-bottom: 1rem;
+
+    }
+
+    li img {
+      margin-right: 1rem;
+      max-width: 65px;
+    }
+  }
+}
+
+.transtornos-info {
+  text-align: left;
+}
+
+.col-tres {
+  display: grid !important;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+
+  @include phone {
+    grid-template-columns: 1fr;
+  }
+
+  .col-tres-el {
+    margin: 0 0.5rem;
+    text-align: left;
+
+    li {
+      margin-bottom: 1rem;
+    }
+  }
+}
+
+.contenedor-pacientes-general {
+  display: flex !important;
+  flex-flow: column;
+
+  .contenedor-pacientes {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    justify-content: space-between;
+    align-items: center;
+
+    .paciente {
+      display: flex;
+      margin: 1rem;
+      text-align: left;
+
+      img {
+        max-width: 120px;
+      }
+
+      .texto {
+        max-width: 280px;
+        margin-left: 1rem;
+        text-align: left !important;
+      }
+    }
+
+    .paciente .titulo {
+      font-size: 1.2rem;
+      text-align: left !important;
+
+    }
+  }
+}
+
+.video-preview {
+  border-radius: 30px;
+  padding: 1rem;
+  max-width: 480px;
+  height: auto;
 }
