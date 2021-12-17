@@ -46,6 +46,16 @@ nav {
       }
     }
   }
+
+  @include phone {
+    padding: 0.3rem;
+
+    .menu li a {
+      font-size: 16px;
+      text-align: left !important;
+      margin: 0px !important;
+    }
+  }
 }
 
 .section {
@@ -283,10 +293,13 @@ nav {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
 
-    @include phone {
-      grid-template-columns: 1fr;
-    }
 
+    @include phone {
+      display: flex !important;
+      flex-flow: column;
+      align-items: center;
+      justify-content: center;
+    }
 
     li {
 
@@ -295,6 +308,13 @@ nav {
       justify-content: between;
       text-align: left;
       margin-bottom: 1rem;
+
+      @include phone {
+        display: flex !important;
+        flex-flow: column;
+        align-items: center;
+        justify-content: center;
+      }
 
     }
 
@@ -339,13 +359,26 @@ nav {
     justify-content: space-between;
     align-items: center;
 
+    @include phone {
+      grid-template-columns: 1fr;
+    }
+
     .paciente {
       display: flex;
       margin: 1rem;
       text-align: left;
 
+      @include phone {
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+      }
+
       img {
         max-width: 120px;
+        height: auto;
+        margin-bottom: 1rem;
+
       }
 
       .texto {
@@ -365,7 +398,18 @@ nav {
 
 .video-preview {
   border-radius: 30px;
-  padding: 1rem;
+  width: 100%;
   max-width: 480px;
   height: auto;
+  margin: auto;
+}
+
+small {
+
+  max-width: 390px;
+  margin: 1rem auto;
+}
+
+.hematomas2 {
+  max-width: 350px !important;
 }

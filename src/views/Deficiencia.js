@@ -33,7 +33,7 @@ function Deficiencia() {
             />
             <small>
               Los síntomas del trastorno hemorrágico a veces pueden ser confusos
-              o <br />
+              o
               difíciles de entender. Mire este video para obtener más
               información.
             </small>
@@ -42,6 +42,11 @@ function Deficiencia() {
       </section>
       <section className="section-white">
         <div className="contenedor">
+          <img
+            src={Def}
+            alt="Problemas con sangrado facil"
+            className="hematomas"
+          />
           <div className="texto">
             <h2>
               ¿QUÉ ES LA DEFICIENCIA DE FACTOR X?
@@ -54,11 +59,7 @@ function Deficiencia() {
             </p>
             <p>Los síntomas de la deficiencia de factor X a veces pueden ser confusos o difíciles de entender. Por ejemplo, los síntomas pueden incluir hinchazón de las articulaciones y dolor causado por el sangrado dentro de una articulación.</p>
           </div>
-          <img
-            src={Def}
-            alt="Problemas con sangrado facil"
-            className="hematomas"
-          />
+
         </div>
       </section>
       <section className="section">

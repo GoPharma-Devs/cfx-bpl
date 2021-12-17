@@ -46,7 +46,7 @@ function Transtornos() {
             />
             <small>
               Los síntomas del trastorno hemorrágico a veces pueden ser confusos
-              o <br />
+              o
               difíciles de entender. Mire este video para obtener más
               información.
             </small>
@@ -55,6 +55,11 @@ function Transtornos() {
       </section>
       <section className="section-white">
         <div className="contenedor">
+          <img
+            src={ProblemasS}
+            alt="Problemas con sangrado facil"
+            className="hematomas2"
+          />
           <div className="texto">
             <h2>
               ¿Cuáles son los signos y síntomas de los trastornos hemorrágicos?
@@ -69,11 +74,7 @@ function Transtornos() {
               peores de lo normal) a severos (mucho peores de lo normal)
             </p>
           </div>
-          <img
-            src={ProblemasS}
-            alt="Problemas con sangrado facil"
-            className="hematomas"
-          />
+
         </div>
       </section>
       <section className="section-white">
