@@ -30,14 +30,15 @@ h5 {
 }
 
 h1 {
-  text-align: left;
+
   margin-top: 0;
-  font-size: 56px;
+  font-size: 52px;
   font-weight: bolder;
   line-height: 1;
+  margin-bottom:2rem;
 
   @include phone {
-    font-size: 36px;
+    font-size: 28px;
   }
 }
 

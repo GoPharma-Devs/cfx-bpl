@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import ProblemasS from "../img/problemas-sangrado.png";
 import GrupoX from "../img/grupo-factorx.png";
 import ImgHeader from "../img/img-header.png";
@@ -7,9 +8,12 @@ function Home() {
     <div className="home">
       <header className="App-header">
         <div className="contenedor">
-          <h1>
-            DEFICIENCIA DEL <br /> FACTOR X
-          </h1>
+          <div className="texto-header">
+            <h1>
+              DEFICIENCIA HEREDITARIA DEL FACTOR X
+            </h1>
+            <Link className="btn-primario" to="/transtornos_hemorragicos"> Conozca más</Link>
+          </div>
           <img src={ImgHeader} className="img-header" alt="logo" />
         </div>
       </header>

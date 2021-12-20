@@ -39,11 +39,8 @@ function Transtornos() {
             </p>
           </div>
           <div className="contendor-video">
-            <img
-              src={VideoImg1}
-              alt="Problemas con sangrado facil"
-              className="video-preview"
-            />
+            <iframe src="https://player.vimeo.com/video/658719436?h=1627dc7b25" width={640} height={360} frameBorder={0} allow="autoplay; fullscreen; picture-in-picture" allowFullScreen />
+
             <small>
               Los síntomas del trastorno hemorrágico a veces pueden ser confusos
               o
@@ -210,6 +207,16 @@ function Transtornos() {
           </div>
         </div>
       </section>
+      <section className="section">
+        <div className="contenedor">
+
+
+          <p className="referencias"><strong>Referencias: 1.</strong>  Centers for Disease Control. What is von Willebrand disease? https://www.cdc.gov/ncbddd/vwd/facts.html. Reviewed October 28, 2019. Accessed October 22, 2020.
+            <br />
+            <strong>2.</strong> Centers for Disease Control. What is hemophilia? https://www.cdc.gov/ncbddd/hemophilia/facts.html. Reviewed July 17, 2020. Accessed October 22, 2020.</p>
+        </div>
+      </section>
+
     </React.Fragment >
   );
 }
