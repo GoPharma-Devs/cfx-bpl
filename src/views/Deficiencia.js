@@ -5,7 +5,7 @@ import Paciente1 from "../img/adrian-256.jpeg"
 import Paciente2 from "../img/maritza-256.jpeg"
 import Paciente3 from "../img/carly-256.jpeg"
 import Paciente4 from "../img/pam-256.jpeg"
-import VideoImg2 from "../img/PREVIEW_VIDEO_BPL_WEB_1.jpg"
+//import VideoImg2 from "../img/PREVIEW_VIDEO_BPL_WEB_1.jpg"
 
 function Deficiencia() {
   return (
@@ -26,11 +26,8 @@ function Deficiencia() {
             </ul>
           </div>
           <div className="contendor-video">
-            <img
-              src={VideoImg2}
-              alt="Problemas con sangrado facil"
-              className="video-preview"
-            />
+            <iframe src="https://player.vimeo.com/video/658719507?h=7156904faa" width={592} height={333} frameBorder={0} allow="autoplay; fullscreen; picture-in-picture" allowFullScreen />
+
             <small>
               Los síntomas del trastorno hemorrágico a veces pueden ser confusos
               o
