@@ -3,7 +3,7 @@ import info1 from "../img/PLAQUETAS_ESQUEMAS_1-01.svg"
 import info2 from "../img/PLAQUETAS_ESQUEMAS_2-02.svg"
 import Articulacion from "../img/articulacion.svg"
 import ProblemasS from "../img/problemas-sangrado.png";
-import VideoImg1 from "../img/PREVIEW_VIDEO_BPL_WEB_2.jpg"
+//import VideoImg1 from "../img/PREVIEW_VIDEO_BPL_WEB_2.jpg"
 import Rutina from "../img/rutina.svg"
 import Cirugia from "../img/cirugia.svg";
 import Pedido from "../img/apedido.svg"
@@ -39,7 +39,7 @@ function Transtornos() {
             </p>
           </div>
           <div className="contendor-video">
-            <iframe src="https://player.vimeo.com/video/658719436?h=1627dc7b25" width={640} height={360} frameBorder={0} allow="autoplay; fullscreen; picture-in-picture" allowFullScreen />
+            <iframe title="Transtornos Hemorragicos" src="https://player.vimeo.com/video/658719436?h=1627dc7b25" width={640} height={360} frameBorder={0} allow="autoplay; fullscreen; picture-in-picture" allowFullScreen />
 
             <small>
               Los síntomas del trastorno hemorrágico a veces pueden ser confusos
