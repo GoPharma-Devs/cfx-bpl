@@ -26,7 +26,7 @@ function Deficiencia() {
             </ul>
           </div>
           <div className="contendor-video">
-            <iframe title="Deficiencia del factor X" src="https://player.vimeo.com/video/658719507?h=7156904faa" width={592} height={333} frameBorder={0} allow="autoplay; fullscreen; picture-in-picture" allowFullScreen />
+            <iframe title="Deficiencia del factor X" className="video-preview" src="https://player.vimeo.com/video/658719507?h=7156904faa" frameBorder={0} allow="autoplay; fullscreen; picture-in-picture" allowFullScreen />
 
             <small>
               Los síntomas del trastorno hemorrágico a veces pueden ser confusos

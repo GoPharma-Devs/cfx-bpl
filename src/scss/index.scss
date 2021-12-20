@@ -396,11 +396,20 @@ nav {
 }
 
 .video-preview {
-  border-radius: 30px;
+  border-radius: 15px;
   width: 100%;
-  max-width: 480px;
-  height: auto;
-  margin: 1rem auto;
+
+
+  width: 592px;
+  height: 333px;
+
+  margin: auto;
+
+
+  @include phone {
+    width: auto;
+    height: auto;
+  }
 }
 
 small {
