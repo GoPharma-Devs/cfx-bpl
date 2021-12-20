@@ -39,7 +39,7 @@ function Transtornos() {
             </p>
           </div>
           <div className="contendor-video">
-            <iframe title="Transtornos Hemorragicos" src="https://player.vimeo.com/video/658719436?h=1627dc7b25" width={640} height={360} frameBorder={0} allow="autoplay; fullscreen; picture-in-picture" allowFullScreen />
+            <iframe title="Transtornos Hemorragicos" src="https://player.vimeo.com/video/658719436?h=1627dc7b25" width={592} height={333} frameBorder={0} allow="autoplay; fullscreen; picture-in-picture" allowFullScreen />
 
             <small>
               Los síntomas del trastorno hemorrágico a veces pueden ser confusos
