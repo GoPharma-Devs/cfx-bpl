@@ -31,10 +31,17 @@ nav {
     justify-content: space-between;
     width: 100%;
 
+    img {
+      @include phone {
+        width: 50px;
+        height: auto;
+      }
+    }
+
     .menu {
       list-style: none;
       display: flex;
-      max-width: 420px;
+
       justify-content: space-evenly;
 
 
@@ -42,6 +49,10 @@ nav {
         color: $navlink;
         text-decoration: none;
         margin: 10px;
+      }
+
+      @include tablet {
+        display: none;
       }
     }
   }
@@ -57,6 +68,8 @@ nav {
   }
 }
 
+
+
 .section {
   display: flex;
   align-items: center;
@@ -66,6 +79,7 @@ nav {
   @include phone {
     flex-flow: column-reverse;
   }
+
 
   .contenedor .texto {
     text-align: left;
@@ -89,6 +103,8 @@ nav {
       max-width: 220px;
     }
   }
+
+
 }
 
 .section-white {
@@ -135,8 +151,9 @@ nav {
   max-width: 1080px;
   width: 100%;
 
-  @include phone {
-    flex-flow: column;
+  @include tablet {
+
+    flex-flow: column-reverse !important;
   }
 }
 
@@ -257,7 +274,7 @@ nav {
   align-items: center;
   justify-content: space-evenly;
 
-  @include phone {
+  @include tablet {
     flex-flow: column;
   }
 }
