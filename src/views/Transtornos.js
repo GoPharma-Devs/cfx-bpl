@@ -128,8 +128,7 @@ function Transtornos() {
           <p>Los trastornos hemorrágicos son un grupo de afecciones en las cuales las personas pueden sangrar más de lo usual, sangrar con facilidad o tener dificultades para detener el sangrado, este sangrado puede ocurrir dentro o fuera del cuerpo.
 
             <br />
-            <br />
-            Gráfico de la coagulación sanguínea normal.</p>
+          </p>
           <div className="contenedor-imagenes">
             <img src={info1} className="col-img" alt="img-info" />
             <img className="col-img" src={info2} alt="img-info" />
@@ -173,7 +172,7 @@ function Transtornos() {
             </div>
             <div className="col-tres-el">
               <img src={Cirugia} alt="img-col" />
-              <p className="titulod">Tratamiento con cirugía:</p>
+              <p className="titulod">Tratamiento durante una cirugía:</p>
               <ul>
                 <li>En algunos casos se puede administrar un tratamiento para ayudar a prevenir el sangrado durante las cirugías, esto incluye cirugías dentales u otros procedimientos médico-quirúgicos en los que pudiera sangrar. </li>
                 <li>Ésta puede ser la opción correcta incluso si los sangrados que usted presenta no son severos o no hay afección en las actividades que realiza diariamente. </li>
@@ -183,7 +182,7 @@ function Transtornos() {
               <img src={Pedido} alt="img-col" />
               <p className="titulod">Tratamiento según sea necesario (a demanda):</p>
               <ul>
-                <li>A veces, se administra un tratamiento cada vez que ocurre un sangrado. El tratamiento a demanda ayudax a detener una hemorragia después de que esta ha comenzado.</li>
+                <li>A veces, se administra un tratamiento cada vez que ocurre un sangrado. El tratamiento a demanda ayuda a detener una hemorragia después de que esta ha comenzado.</li>
                 <li>Esta puede ser la opción si los sangrados se presentan rara vez, si el sangrado no afecta sus actividades diarias o si los sangrados no son severos. </li>
               </ul>
             </div>
