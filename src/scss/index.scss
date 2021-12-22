@@ -202,6 +202,10 @@ nav {
     text-align: left;
     margin-left: 2rem;
 
+    li {
+      margin-bottom: 1rem;
+    }
+
   }
 }
 
@@ -459,4 +463,53 @@ small {
   @include phone {
     text-align: center;
   }
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90px;
+
+  a {
+    cursor: pointer;
+    color: #004B87;
+    text-decoration: none;
+  }
+}
+
+.App-aviso {
+  padding-top: 8rem;
+  max-width: 1080px;
+  margin: auto;
+
+  a {
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: bolder;
+    color: #004B87;
+  }
+
+  .letras {
+    list-style-type: lower-alpha;
+  }
+
+  h1 {
+    text-align: center
+  }
+}
+
+.texto-aviso {
+  .titulo {
+    font-size: 1.4rem;
+    text-align: left !important;
+  }
+
+  ul,
+  ol {
+    padding-left: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  text-align: justify;
 }
