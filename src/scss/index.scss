@@ -33,9 +33,12 @@ nav {
     justify-content: space-between;
     width: 100%;
     box-sizing: border-box;
-    padding: 1rem;
+    padding: 0.5rem;
 
     img {
+      max-width: 80px;
+      height: auto;
+
       @include tablet {
         width: 60px;
         height: auto;
