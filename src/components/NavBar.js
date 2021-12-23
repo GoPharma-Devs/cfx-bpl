@@ -17,7 +17,7 @@ function NavBar() {
         <NavLink to="/" onClick={closeMobileMenu}> <img src={logoNav} alt="Coagulación Factor X" /></NavLink>
 
         <ul className={click ? "menu active-r" : "menu "}>
-          <li className="oculto"> <NavLink className={({ isActive }) => isActive ? 'active-nav' : ''} onClick={closeMobileMenu} to="/transtornos_hemorragicos"><i className="fas fa-home"></i></NavLink></li>
+          <li className="oculto"> <NavLink className={({ isActive }) => isActive ? 'active-nav' : ''} onClick={closeMobileMenu} to="/"><i className="fas fa-home"></i></NavLink></li>
           <li> <NavLink className={({ isActive }) => isActive ? 'active-nav' : ''} onClick={closeMobileMenu} to="/transtornos_hemorragicos">Trastornos
             hemorrágicos</NavLink></li>
 
