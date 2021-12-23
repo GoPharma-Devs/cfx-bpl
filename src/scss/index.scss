@@ -572,3 +572,11 @@ footer {
     right: 1rem;
   }
 }
+
+.oculto {
+  display: none;
+
+  @include tablet {
+    display: flex;
+  }
+}
